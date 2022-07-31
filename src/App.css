@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFD151;
+}
+
+.title{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    animation: title-animation 1s ease-in-out;
+    text-shadow: 3px 2px black;
+    margin-top: -50px;
+}
+
+@keyframes title-animation {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+.containerInput{
+    background-color: #F8C537;
+    padding: 15px;
+    margin: 34px 0;
+    display: flex;
+    border-radius: 5px;
+    border: 5px solid white;
+}
+
+.containerInput input{
+    border: white;
+    border-radius: 2px 0px 0px 2px;
+    width: 300px;
+}
+
+.containerInput input::placeholder{
+    padding-left: 5px;
+}
+
+.buttonSearch{
+    padding: 5px;
+    background-color: #F8C537;
+    display: flex;
+    border: white 5px solid;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+.buttonSearch:hover{
+    transform: translateX(5px);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8C537;
+    width: 380px;
+    border-radius: 2px;
+    border: 5px solid white;
+    color: white;
+}
+
+.main h2{
+    margin: 5px 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.main span{
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+    font-size: 1.2rem;
+}
