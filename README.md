@@ -1,7 +1,7 @@
 <h1 align="center"> Hey there, i'm Nich, and this is my First Project with React</h1>
  
 <p align="center">
-  <img src="https://github.com/italicnich/First-React-Project/blob/main/readmeimg/img-gif.gif" alt="Page Preview">
+  <img src="https://github.com/italicnich/First-React-Project/blob/master/readmeimg/img-gif.gif" alt="Page Preview">
 </p>
 
 <h3 align="justify"> <i>Hey there, this is my first and very simple project with react. In general, it consults an API by sending a Postal Code and displaying the information received with the help of "useState". I'm still being introduced to react concepts, so I'll do more complex projects in the future.<br><br>A point to mention is how I put my project on Github pages, I tried several methods, but <a href="https://create-react-app.dev/docs/deployment/#github-pages"> this </a> one was the simplest and most efficient. <a href="https://viacep.com.br/">API link used</a>. <br><br> One point of improvement is adapting to thinner mobile devices and I will do that soon. </i> </h3>
